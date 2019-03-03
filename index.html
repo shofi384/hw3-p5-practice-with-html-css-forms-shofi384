@@ -12,15 +12,24 @@
 	<form id="survey-form" action="">
 		<label id="name-label" for="name">Full Name:</label>
 		<input id="name" type="text" placeholder="name" required><br>
+
 		<label id="email-label" for="name">E-mail:</label>
 		<input id="email" type="email" placeholder="email" required><br>
+
 		<label id="id="number-label"" for="number">Age:</label>
 		<input id="number" type="number" min="1" max="100" placeholder="age"><br>
+
 		<select id="dropdown">
 			<option value="faculty">Faculty</option>
 			<option value="student">Student</option>
 			<option value="staff">staff</option>
 		</select><br>
+
+		<fieldset id="college">
+			<input type="radio" value="City College" name="college">City College<br>
+			<input type="radio" value="Baruch" name="college">Baruch<br>
+			<input type="radio" value="BMCC" name="college">BMCC<br>
+		</fieldset>
 
 		<input id="submit" type="submit">
 	</form>
