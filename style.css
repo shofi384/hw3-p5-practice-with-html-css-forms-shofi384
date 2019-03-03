@@ -7,6 +7,17 @@ body {
 input {
 	background-color: #eeefde;
 	margin: 1%;
+	border-left: 10px;
 	height: 20px;
 	font-size: 15px;
+}
+
+#submit {
+	margin: 5%;
+	background-color: #81d39c;
+	height: 35px;
+	width: 20%;
+	border-radius: 20px;
+	font-size: 150%;
+	color: #2e543a;
 }
