@@ -8,10 +8,21 @@
 <body>
 	<h1 id="title">Survey Form</h1>
 	<p id="description">This page is created as HW3-P5 requirement. This page contains a simple form. </p>
+
 	<form id="survey-form" action="">
-		<label for="name">Full Name</label>
-		<input id="name" type="text" placeholder="First Last"><br>
-		<input id="email" type="text" label="name"><br>
+		<label id="name-label" for="name">Full Name:</label>
+		<input id="name" type="text" placeholder="name" required><br>
+		<label id="email-label" for="name">E-mail:</label>
+		<input id="email" type="email" placeholder="email" required><br>
+		<label id="id="number-label"" for="number">Age:</label>
+		<input id="number" type="number" min="1" max="100" placeholder="age"><br>
+		<select id="dropdown">
+			<option value="faculty">Faculty</option>
+			<option value="student">Student</option>
+			<option value="staff">staff</option>
+		</select><br>
+
+		<input id="submit" type="submit">
 	</form>
 	
 </body>
